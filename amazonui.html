@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon UI</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+    }
+
+   
+    header {
+      background-color: #232f3e;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .search-bar {
+      flex: 1;
+      margin: 0 20px;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .nav-links a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 1em;
+    }
+
+   
+    .container {
+      padding: 20px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .product-card h3 {
+      font-size: 1em;
+      margin: 10px 0;
+    }
+
+    .product-card p {
+      font-size: 0.9em;
+      color: gray;
+    }
+
+    .product-card .price {
+      font-size: 1.2em;
+      color: #b12704;
+      font-weight: bold;
+    }
+
+   
+    footer {
+      background-color: #232f3e;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+ 
+  <header>
+    <div class="logo">Amazon </div>
+    
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products, brands, and more...">
+    </div>
+    <div class="nav-links">
+      <a href="#"> Hello,Sign In</a>
+      <a href="#">Orders</a>
+      <a href="#">Cart</a>
+    </div>
+  </header>
+
+ 
+  <div class="container">
+    <div class="product-grid">
+     
+      <div class="product-card">
+        <img src="ce_showcase_4pack_mobile_tradein.jpg  " alt="Product Image" width="100px" height="100px">
+        
+        <h3>Product Title</h3>
+        <p>Short description of the product.</p>
+        <div class="price">$99.99</div>
+      </div>
+
+      <div class="product-card">
+        <img src="alexa-cp-dot-1.jpg " alt="Product Image" width="200px" height="200px">
+        <h3>Product Title</h3>
+        <p>Short description of the product.</p>
+        <div class="price">$49.99</div>
+      </div>
+
+      <div class="product-card">
+        <img src="750x390_fireTV_v4.jpg" alt="Product Image" width="200px" height="200px">
+        <h3>Product Title</h3>
+        <p>The Art of Letting Go: Move Beyond the Hurt, Find Emotional Freedom and Restore Your Inner Peac</p>
+        <div class="price">$29.99</div>
+      </div>
+
+      <div class="product-card">
+        <img src="51CYzU8PL4L._AC_UL330_SR330,330_.jpg" alt="Product Image " width="100px" height="100px">
+        <h3>Product Title</h3>
+        <p>Short description of the product.</p>
+        <div class="price">$19.99</div>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer>
+    &copy; 2024 Amazon Clone. All rights reserved.
+  </footer>
+</body>
+</html>
